@@ -411,6 +411,12 @@ hr {
         display: none;
     }
 
+    .shop-icon {
+        width: 50%;
+        height: auto;
+    }
+
+
     .beli {
         text-align: center;
     }
@@ -430,6 +436,7 @@ hr {
         width: 100%;
         height: 120%;
     }
+
 }
 
 
