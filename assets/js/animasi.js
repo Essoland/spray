@@ -91,17 +91,26 @@ TweenMax.to(".box", 2.4, {
     delay: 3.8,
 });
 
-var tl = new TweenMax.staggerFrom(".menu > div", 2, {
-    opacity: 0,
-    y: 30,
-    ease: Expo.easeInOut,
-    delay: 4.2
-}, 0.1);
+var tl = new TweenMax.staggerFrom(
+    ".menu > div",
+    2,
+    {
+        opacity: 0,
+        y: 30,
+        ease: Expo.easeInOut,
+        delay: 4.2,
+    },
+    0.1
+);
 
-var tl = new TweenMax.staggerFrom(".hero-container > div", 2, {
-    opacity: 0,
-    y: 30,
-    ease: Expo.easeInOut,
-    delay: 4.2
-}, 0.1);
-
+var tl = new TweenMax.staggerFrom(
+    ".hero-container > div",
+    2,
+    {
+        opacity: 0,
+        y: 30,
+        ease: Expo.easeInOut,
+        delay: 4.2,
+    },
+    0.1
+);

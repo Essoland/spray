@@ -86,6 +86,8 @@ body {
 
 .col-md-4 {
     transition: transform 0.3s ease, background-color 0.3s ease;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .col-md-4:hover {
