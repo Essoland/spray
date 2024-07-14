@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
 }
 
 /* nav  */
@@ -75,6 +76,13 @@ body {
     margin-top: -50px;
 }
 
+.varian,
+.vo,
+.daily,
+.shop,
+.musik {
+    margin-top: 100px;
+}
 
 .button-varian svg {
     transition: transform 0.3s ease;
@@ -122,6 +130,7 @@ body {
 }
 
 /* loader  */
+
 
 .wrapper {
     position: fixed;
@@ -321,6 +330,16 @@ hr {
     height: auto;
 }
 
+.daily-quotes {
+    padding: 17px;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+
+
 /* media queries  */
 
 @media (max-width: 900px) {
@@ -364,6 +383,10 @@ hr {
 
     .title {
         font-size: 28px;
+    }
+
+    .text {
+        text-align: justify;
     }
 
     .logo-varian {
@@ -439,6 +462,13 @@ hr {
         height: 120%;
     }
 
+    .daily-quotes {
+        width: 100%;
+    }
+
+    .margin5 {
+        margin-top: -60px;
+    }
 }
 
 
