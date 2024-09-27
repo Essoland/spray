@@ -496,7 +496,7 @@ hr {
     }
 
     .shop-icon {
-        width: 40%;
+        width: 70%;
     }
 
     footer {
@@ -576,4 +576,47 @@ hr {
     align-items: center;
     cursor: pointer;
     transition: background 0.3s ease;
+}
+
+.marginbot {
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .varian3 {
+        margin-top: -60px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .marginbot {
+        padding-bottom: 0;
+    }
+
+    .maps {
+        width: 120%;
+        height: 80%;
+    }
+
+    .text {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .gambarTentang {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .gambarTentang2 {
+        margin-top: 80px;
+    }
+
+    .img-kandungan {
+        width: 100%;
+        height: auto;
+    }
+
 }
