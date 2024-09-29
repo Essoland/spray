@@ -328,11 +328,41 @@ hr {
     letter-spacing: 0.8px;
 }
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    border: 0;
+}
+
 /* media queries  */
 @media (max-width: 1200px) {
     .maps {
         width: 100%;
         height: 120%;
+    }
+
+    .video-container {
+        margin-top: 30px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 100%;
     }
 }
 
