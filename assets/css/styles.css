@@ -456,7 +456,7 @@ hr {
     }
 
     .shop-icon {
-        width: 50%;
+        width: 60%;
         height: auto;
     }
 
@@ -573,7 +573,7 @@ hr {
     }
 
     .shop-icon {
-        width: 30%;
+        width: 60%;
     }
 
     footer {
@@ -646,6 +646,11 @@ hr {
     }
 
     .img-kandungan {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-shop {
         width: 100%;
         height: auto;
     }
