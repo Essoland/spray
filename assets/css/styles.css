@@ -1,0 +1,657 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+}
+
+/* nav  */
+.navbar {
+    padding-left: 90px;
+}
+
+.navbar-brand {
+    padding-right: 570px;
+}
+
+.navbar-nav {
+    gap: 40px;
+}
+
+.navbar-nav a:hover {
+    font-weight: 600;
+}
+
+/* Header */
+.header-1 {
+    color: #5E7153;
+    font-family: "Fredoka";
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.header-2 {
+    font-size: 40px;
+    color: #5E7153;
+    font-family: "Fredoka";
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.header-p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.92px;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button-varian {
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-varian:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.martop-varian {
+    margin-top: -50px;
+}
+
+.varian,
+.vo,
+.daily,
+.shop,
+.musik {
+    margin-top: 100px;
+}
+
+.button-varian svg {
+    transition: transform 0.3s ease;
+}
+
+.button-varian:hover svg {
+    transform: rotate(360deg);
+}
+
+.col-md-4 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.col-md-4:hover {
+    transform: translateY(-10px);
+    background-color: rgba(94, 113, 83, 0.1);
+}
+
+.wrapper-img {
+    overflow: hidden;
+    position: relative;
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 30%;
+}
+
+.image-header {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box {
+    background: white;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* loader  */
+.wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #5E7153;
+    z-index: 2;
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: auto;
+    z-index: 2;
+}
+
+/* About  */
+.title {
+    color: #5E7153;
+    font-family: "Fredoka";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.text {
+    color: var(--Monochrome-Primary, #041827);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    margin-top: 20px;
+}
+
+.kandungan {
+    color: #5E7153;
+    font-family: "Fredoka";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+}
+
+.komposisi {
+    color: #5E7153;
+    font-family: "Fredoka";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+}
+
+.img-detail-produk {
+    width: 85%;
+    height: auto;
+}
+
+.img-kandungan {
+    width: 70%;
+    height: auto;
+}
+
+/* daily */
+.card {
+    border-radius: 10px;
+    background: var(--Primary-5E7153, #5E7153);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.40);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.subtitle {
+    color: var(--Secondary-F8E4D1, #F8E4D1);
+    font-family: "Fredoka";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+/* vo */
+.banner-vo {
+    width: 70%;
+    height: auto;
+}
+
+.vo-text {
+    margin-top: 80px;
+}
+
+.img-shop {
+    width: 75%;
+    height: auto;
+}
+
+/* shop */
+h1 {
+    color: var(--Primary-5E7153, #5E7153);
+    font-family: "Fredoka";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.shop-icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.shop-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+footer {
+    background: var(--Primary-5E7153, #5E7153);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(50px);
+    flex-shrink: 0;
+    padding-left: 150px;
+    padding-top: 96px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.footer-deskripsi {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.social-icons {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-icons:hover {
+    transform: scale(1.1);
+}
+
+.img-relax {
+    margin-top: 55px;
+}
+
+.main {
+    margin-top: -50px;
+}
+
+.img-box {
+    width: 80%;
+    height: auto;
+}
+
+.maps {
+    width: 600px;
+    height: 450px;
+}
+
+.kotak-kiri {
+    padding: 36px 33px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.kotak-kanan {
+    padding: 20px 50px 20px 20px;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+}
+
+.img-daily {
+    width: 75%;
+    height: auto;
+}
+
+.daily-quotes {
+    padding: 17px;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    border: 0;
+}
+
+/* media queries  */
+@media (max-width: 1200px) {
+    .maps {
+        width: 100%;
+        height: 120%;
+    }
+
+    .video-container {
+        margin-top: 30px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper-img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .kotak-kanan {
+        padding: 10px;
+    }
+
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navbar-brand {
+        padding-right: 0;
+    }
+
+    .navbar-nav {
+        gap: 0;
+        padding-top: 30px;
+    }
+
+    .header-1 {
+        font-size: 50px;
+    }
+
+    .header-2 {
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    .header-p {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .text {
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .logo-varian {
+        display: none;
+    }
+
+    .kandungan {
+        margin-top: 25px;
+    }
+
+    .img-detail-produk {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-kandungan {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-vo {
+        width: 100%;
+        height: auto;
+    }
+
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 2;
+    }
+
+    .vo-text {
+        margin-top: 0;
+        text-align: justify;
+    }
+
+    .img-shop {
+        display: none;
+    }
+
+    .shop-icon {
+        width: 60%;
+        height: auto;
+    }
+
+    .beli {
+        text-align: center;
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer-deskripsi {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .maps {
+        width: 100%;
+        height: 120%;
+    }
+
+    .daily-quotes {
+        width: 100%;
+    }
+
+    .margin5 {
+        margin-top: -60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .header-1 {
+        font-size: 40px;
+    }
+
+    .header-2 {
+        font-size: 25px;
+        margin-top: -5px;
+    }
+
+    .header-p {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .img-detail-produk,
+    .img-kandungan {
+        width: 100%;
+    }
+
+    .banner-vo {
+        width: 100%;
+    }
+
+    .shop-icon {
+        width: 70%;
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .footer-deskripsi {
+        font-size: 16px;
+    }
+
+    .maps {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .header-1 {
+        font-size: 30px;
+    }
+
+    .header-2 {
+        font-size: 20px;
+    }
+
+    .header-p {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .shop-icon {
+        width: 60%;
+    }
+
+    footer {
+        padding-top: 20px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .footer-deskripsi {
+        font-size: 14px;
+    }
+
+    .maps {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* back to top */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--Primary-5E7153, #5E7153);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.marginbot {
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .varian3 {
+        margin-top: -60px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .marginbot {
+        padding-bottom: 0;
+    }
+
+    .maps {
+        width: 120%;
+        height: 80%;
+    }
+
+    .text {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .gambarTentang {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .gambarTentang2 {
+        margin-top: 80px;
+    }
+
+    .img-kandungan {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-shop {
+        width: 100%;
+        height: auto;
+    }
+}
